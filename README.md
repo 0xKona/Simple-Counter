@@ -1,8 +1,12 @@
-# React + Vite
+# React + Vite & Redux Simple Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple counter made using React + Vite with styled-components and Redux for state management
 
-Currently, two official plugins are available:
+Made using node v18.18.0
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## To Run:
+
+ - Step 1: Clone Repo
+ - Step 2: Run `npm install` in the terminal
+ - Step 3: Run `npm run dev` in the terminal at the root of the project
+ - Step 4: Go to `http://localhost:5173/` and the counter should be working. 
