@@ -47,9 +47,9 @@ const IncrementButton = styled.button`
 `
 
 const CounterComponent = () => {
-    const dispatch = useDispatch(); // This hook gives you access to the dispatch function
+    const dispatch = useDispatch(); // useDispatch gives you access to the dispatch function to update state
     const counter = useSelector(state => state.counter.value); // Access the state with useSelector
-
+    
     const backgroundColor = () => {
         if (counter > 0) return 'green'
         if (counter < 0) return 'red'
